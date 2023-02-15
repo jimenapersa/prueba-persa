@@ -1,0 +1,147 @@
+body{
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+/*header*/
+header{
+    background-color: #E1A9FF;
+    text-decoration: none;
+    list-style-type: none;
+    /* no me queda el color hasta los bordes */
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Rozha One', serif;
+    padding: 10px;
+    margin: 90px;
+}
+header nav ul li a:hover{
+    color: #6E0063;
+}
+
+/* main */
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #E1A9FF;
+    font-size: 100px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+h4{
+    color: #E1A9FF;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    margin: 0;
+}
+.gif{
+    background-color: white;
+    display: inline-flex;
+    margin: 80px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+}
+.button-contact-index{
+    background-color: #E1A9FF;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 15px;
+    font-family: 'Montserrat', sans-serif;
+    /* font-weight: bold; */
+    /* no me queda la tipografia en negrita */
+}
+.button-contact-index:hover{
+    background-color: #6E0063;
+    color: white;
+}
+
+/* section */
+.square-index{
+    background-color: #E1A9FF;
+    padding: 20px;
+    margin: 50px;
+    text-align: center;
+}
+.titulares{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* footer */
+footer ul li a{
+    color: #E1A9FF;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: #6E0063;
+}
+footer ul li{
+    display: inline-block;
+    margin: 100px;
+}
+.icons{
+    color: #E1A9FF;
+    font-size: 30px;
+    margin: 80px;
+    padding: 25px;
+    text-align: center;
+}
+.iconos{
+    width: 100vw;
+    margin: 0 auto;
+}
+.icons:hover{
+    color: #6E0063;
+}
+
+/* work */
+/* section */
+h2{
+    color: #E1A9FF;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+}
+.div-proyectos{
+    background-color: #E1A9FF;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 50px;
+    border-radius: 100px;
+}
+.proyectos{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* about */
+.about-p{
+    padding: 50px;
+}
+
+/* contact */
+.contact{
+    background-color: white;
+    margin: 80px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}

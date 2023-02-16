@@ -42,6 +42,16 @@ h4{
     font-weight: lighter;
     margin: 0;
 }
+.prueba{
+    perspective: 1500px;
+}
+.prueba-img{
+    transform: rotate(0);
+    transition: 3s;
+}
+.prueba-img:hover{
+    transform: rotateX(3deg) rotateY(-3deg) rotateZ(3deg);
+}
 .gif{
     background-color: white;
     display: inline-flex;
@@ -58,15 +68,11 @@ h4{
     font-weight: bold;
     padding: 15px;
     font-family: 'Montserrat', sans-serif;
-    transition-property: transform;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0;
 }
 .button-contact-index:hover{
     background-color: #6E0063;
     color: white;
-    transform: translateY(-px);
+    transform: translateY(-10px);
 }
 
 /* section */

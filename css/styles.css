@@ -9,7 +9,6 @@ header{
     background-color: #E1A9FF;
     text-decoration: none;
     list-style-type: none;
-    /* no me queda el color hasta los bordes */
 }
 header nav ul li{
     list-style-type: none;
@@ -59,12 +58,15 @@ h4{
     font-weight: bold;
     padding: 15px;
     font-family: 'Montserrat', sans-serif;
-    /* font-weight: bold; */
-    /* no me queda la tipografia en negrita */
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0;
 }
 .button-contact-index:hover{
     background-color: #6E0063;
     color: white;
+    transform: translateY(-px);
 }
 
 /* section */

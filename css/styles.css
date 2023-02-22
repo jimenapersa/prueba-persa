@@ -76,11 +76,16 @@ h4{
 }
 
 /* section */
+.cards{
+    display: flex;
+    flex-direction: row;
+}
 .square-index{
     background-color: #E1A9FF;
     padding: 20px;
     margin: 50px;
     text-align: center;
+    border-radius: 10px;
 }
 .titulares{
     font-family: 'Montserrat', sans-serif;

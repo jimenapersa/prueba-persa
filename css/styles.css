@@ -30,6 +30,7 @@ header nav ul li a:hover{
     font-family: 'Montserrat', sans-serif;
     color: #E1A9FF;
     font-size: 100px;
+    font-weight: bold;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -71,28 +72,6 @@ h4{
 .gif-text{
     color: #E1A9FF;
 }
-.about-card{
-    background-color:#6E0063;
-    color: white;
-    display: flex;
-    border: none;
-    border-radius: 20px;
-    margin: 80px;
-    padding: 20px;
-}
-.button-contact-index{
-    background-color: #E1A9FF;
-    color: black;
-    border: none;
-    border-radius: 10px;
-    font-weight: bold;
-    padding: 15px;
-    font-family: 'Montserrat', sans-serif;
-}
-.button-contact-index:hover{
-    background-color: #6E0063;
-    color: white;
-}
 
 /* section */
 .cards{
@@ -118,6 +97,7 @@ h4{
 footer ul li a{
     color: #E1A9FF;
     text-decoration: none;
+    display: flex;
 }
 footer ul li a:hover{
     color: #6E0063;
@@ -166,6 +146,15 @@ h2{
 }
 
 /* about */
+.about-card{
+    background-color:#6E0063;
+    color: white;
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    margin: 80px;
+    padding: 20px;
+}
 .about-p{
     padding: 50px;
 }

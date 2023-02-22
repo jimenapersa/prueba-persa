@@ -26,12 +26,21 @@ header nav ul li a:hover{
 }
 
 /* main */
-h1{
+.persa{
     font-family: 'Montserrat', sans-serif;
     color: #E1A9FF;
     font-size: 100px;
     margin: 0;
     padding: 0;
+    text-align: center;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #E1A9FF;
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 20;
+    padding: 20;
     text-align: center;
 }
 h4{
@@ -62,6 +71,15 @@ h4{
 .gif-text{
     color: #E1A9FF;
 }
+.about-card{
+    background-color:#6E0063;
+    color: white;
+    display: flex;
+    border: none;
+    border-radius: 20px;
+    margin: 80px;
+    padding: 20px;
+}
 .button-contact-index{
     background-color: #E1A9FF;
     color: black;
@@ -74,7 +92,6 @@ h4{
 .button-contact-index:hover{
     background-color: #6E0063;
     color: white;
-    transform: translateY(-10px);
 }
 
 /* section */
